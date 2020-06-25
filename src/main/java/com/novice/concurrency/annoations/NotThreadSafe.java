@@ -5,6 +5,9 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
+/**
+ * 非线程安全的类，自定义的注解只用于【学习过程中】和【复习笔记】
+ */
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.CLASS)
 public @interface NotThreadSafe {
